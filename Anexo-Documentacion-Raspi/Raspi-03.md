@@ -2,9 +2,20 @@
 
 **[volver](./Raspi_home)**
 
+---
+
 # Instalación de SO Raspbian en la tarjeta SD
 
-### Desde un Pc Windows
+## 1. Instalación del Sofware en Tarjeta micro SD
+
+
+### Introducción
+
+En el Caso estudiado, se ha procedido a arrancar un PC con SO Windows 11. En el, se ha insertado la tarjeta microSD en un lector de tarjeta MicroSD que se conecta directamente por USB al PC.
+
+
+### Pasos a seguir.
+
 
 - Se procede a la instalación de la aplicación Raspberry Pi Imager
   - Se puede descargar la aplicación en la siguiente URL https://www.raspberrypi.com/software/.
@@ -71,16 +82,29 @@
 
 - Tras la instalación, la aplicación procede a comprobar la correcta instalación del SO en la tarjeta SD.
 
+
 ![Verificación de la correcta instalación del SO en la SD](../assets/Anexo-raspi/Raspi-03/010-verificaci%C3%B3n.png)
 ~ Verificación de la correcta instalación del SO en la SD
 
 - La instalación del SO en la SD habrá finalizado.
+
+---
+
+## 2. Preparación de Raspberry Pi.
+
+### Introducción.
+
+Una vez instalado el sistema operativo dentro de la tarjeta MicroSD, procederemos a realizar unas acciones previas al arrancado definitivo de la Raspberry Pi en su emplazamiento final.
+
+### Pasos previos al primer inicio de la Raspberry Pi.
 
 - Se procede la configuración para poder arrancar el dispositivo.
   - Se extrae la tarjeta SD del PC y se procede a su colocación en la Raspberry.
 
 ![Colocación Tarjeta MicroSD](../assets/Anexo-raspi/Raspi-03/011-colocacion-tarjeta-microSD.png)
 ~ Colocación Tarjeta MicroSD
+
+
 
 - Se procede a conectar lo siguiente:
   - Entrada USB-C $\rightarrow$ fuente de alimentación
@@ -89,6 +113,9 @@
 
 ![Conexiones Raspberry](../assets/Anexo-raspi/Raspi-03/012-conexionado-Raspi.png)
 ~ Conexiones Raspberry
+
+
+### Primer arranque de la Raspberry Pi.
 
 - Procedemos a su encendido.
   - Durante el encendido de este... si a los **3 minutos** la Raspberry parece haberse quedado colgada, es decir ves la pantalla en negro durante al menos **durante esos 3 minutos, nunca menos**.
@@ -165,12 +192,16 @@
 
 - Procederemos al apagado de la Raspberry y a su instalación en su emplazamiento definitivo sin necesidad de conectar teclado ni salida micro-HDMI.
 
-- En nuestro caso hemos conectado un cable de red para hacer después la conexión con el router de manera física.
+- En nuestro caso hemos conectado un cable de red para hacer después la conexión con el router de manera física. Quedando de esta manera instalada la Raspberry Pi en su emplazamiento final.
 
 ![Dispositivo preparado para iniciar servicios](../assets/Anexo-raspi/Raspi-03/022-Puesta-en-servicio.png)
-~ Ventana enlace VNC
+~ Emplazamiento Final de Raspberry Pi.
 
 ---
 
 
+**[volver](./Raspi_home.md)**
 
+**[Subir](#top)**
+
+**[Home](/home)**

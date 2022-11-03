@@ -2,6 +2,8 @@
 
 **[volver](./Raspi_home)**
 
+---
+
 # 1. Información General del sistema.
 
 ## 1.1. Introducción.
@@ -319,7 +321,7 @@ Bluetooth 4.2 BLE
 <td>GNU/Linux: <a rel="nofollow" class="external text" href="https://www.raspberrypi.org/downloads/raspbian">Raspbian</a>
 </td></tr></tbody></table>
 
-
+---
 
 **[volver](./Raspi_home.md)**
 
