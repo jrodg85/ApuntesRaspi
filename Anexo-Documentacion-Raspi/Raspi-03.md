@@ -4,7 +4,7 @@
 
 ---
 
-# Instalación de SO Raspbian en la tarjeta SD
+# Instalación de SO Raspbian en la tarjeta MicroSD
 
 ## 1. Instalación del Sofware en Tarjeta micro SD
 
