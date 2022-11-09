@@ -6,16 +6,19 @@
 
 # Instalación de SO Raspbian en la tarjeta MicroSD
 
-## 1. Instalación del Sofware en Tarjeta micro SD
+### Introducción.
 
+En este Capitulo, procederemos a las acciones necesarias en la Raspberry para instalar el sistema operativo y, posteriormente, realizar las configuraciones para poder instalarla en un lugar definitivo sin necesidad de tener conectado un teclado y un ratón al dispositivo.
+
+---
+
+## 1. Instalación del Sofware en Tarjeta micro SD
 
 ### Introducción
 
 En el Caso estudiado, se ha procedido a arrancar un PC con SO Windows 11. En el, se ha insertado la tarjeta microSD en un lector de tarjeta MicroSD que se conecta directamente por USB al PC.
 
-
 ### Pasos a seguir.
-
 
 - Se procede a la instalación de la aplicación Raspberry Pi Imager
   - Se puede descargar la aplicación en la siguiente URL https://www.raspberrypi.com/software/.
@@ -40,7 +43,6 @@ En el Caso estudiado, se ha procedido a arrancar un PC con SO Windows 11. En el,
 ~ Selección de Sistema Operativo.
 
 - A continuación, nos devuelve a la pagina principal de la aplicación con el SO seleccionado.
-
 
 ![SO cargado](../assets/Anexo-raspi/Raspi-03/004-SO-cargado-elegimos%20almacenamiento.png)
 
@@ -104,8 +106,6 @@ Una vez instalado el sistema operativo dentro de la tarjeta MicroSD, procederemo
 ![Colocación Tarjeta MicroSD](../assets/Anexo-raspi/Raspi-03/011-colocacion-tarjeta-microSD.png)
 ~ Colocación Tarjeta MicroSD
 
-
-
 - Se procede a conectar lo siguiente:
   - Entrada USB-C $\rightarrow$ fuente de alimentación
   - Entrada USB 2.0 $\rightarrow$ Teclado y ratón (en nuestro caso es inalámbrico y solo es necesario un puerto USB).
@@ -113,7 +113,6 @@ Una vez instalado el sistema operativo dentro de la tarjeta MicroSD, procederemo
 
 ![Conexiones Raspberry](../assets/Anexo-raspi/Raspi-03/012-conexionado-Raspi.png)
 ~ Conexiones Raspberry
-
 
 ### Primer arranque de la Raspberry Pi.
 
@@ -127,18 +126,15 @@ Una vez instalado el sistema operativo dentro de la tarjeta MicroSD, procederemo
 ![Raspberry Pi Configuration](../assets/Anexo-raspi/Raspi-03/013-Rasberry-pi-configuration.png)
 ~ Conexiones Raspberry: obsérvese en este caso de la imagen que esta en español.
 
-
 - Ahora configuraremos la resolución para VNC cuando el monitor no esta conectado.
   - En la pestaña de Display, seleccionaremos el desplegable de Headless Resolution: $\rightarrow$ 1920x1080.
 
 ![Resolución VNC](../assets/Anexo-raspi/Raspi-03/014-screen-VNC-resolution.png)
 
-
 - Activaremos VNC para su posterior conexión a través de este sistema.
   - Seleccionamos en la pestaña interfaces y activaremos el check de VNC.
 
 ![Interfaces de conexión a Raspberry Pi ](../assets/Anexo-raspi/Raspi-03/015-Interfaces.png)
-
 
 - Por ultimo, en Raspberry Pi Configuration, procederemos a la pestaña Localisation y comprobaremos todos los apartados. En mi caso, no tenían concordancia con lo indicado previamente se había cargado durante la instalación de Raspbian en la SD.
   - Locale $\rightarrow$ Set Locale...
@@ -198,7 +194,6 @@ Una vez instalado el sistema operativo dentro de la tarjeta MicroSD, procederemo
 ~ Emplazamiento Final de Raspberry Pi.
 
 ---
-
 
 **[volver](./Raspi_home.md)**
 

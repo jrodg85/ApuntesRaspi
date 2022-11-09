@@ -20,6 +20,7 @@
 
 - ### [Instalación de SO Raspbian en la tarjeta SD](./Raspi-03)
 
+- ### [Configuración inicial del Servidor Raspberry](./Raspi-04)
 
 
    **[volver](/home)**

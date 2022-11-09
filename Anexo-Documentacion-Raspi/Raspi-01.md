@@ -20,7 +20,6 @@ La fundación da soporte para las descargas de las distribuciones para arquitect
 
 La organización detrás de la Raspberry Pi consiste en dos brazos. Los primeros modelos fueron desarrollados por la Raspberry Pi Foundation. Después de que la Raspberry Pi 1 Modelo B fuese lanzado, la fundación creó Raspberry Pi Trading, con Eben Upton como CEO, para desarrollar el tercer modelo, el Raspberry Pi Modelo 1 B+. Raspberry Pi Trading es responsable de desarrollar la tecnología, mientras que la fundación es una organización sin fines de lucro educativa que tiene como objetivo promocionar la enseñanza de informática en escuelas y países en desarrollo.
 
-
 Unidades vendidas de Rasperry Pi
 De acuerdo a la Raspberry Pi Foundation, más de cinco millones de Raspberry Pi fueron vendidas en febrero de 2015, haciéndola la computadora británica mejor vendida. En noviembre de 2016 vendieron once millones de unidades, y 12.5 millones en marzo de 2017, haciéndolo el tercer mejor vendido "computador de propósito general". En julio de 2017, las ventas alcanzaron cerca de 15 millones. En marzo de 2018, las ventas alcanzaron 19 millones.
 
@@ -43,7 +42,6 @@ El administrador de la fundación, Eben Upton, se puso en contacto con un grupo 
 En agosto de 2011, se fabricaron cincuenta placas alfa, que tenían las mismas características que el modelo B, pero eran un poco más grandes para integrar bien unas interfaces para depuración. En algunas demostraciones se podía ver la placa ejecutando el escritorio LXDE en Debian, Quake 3 a 1080p y vídeo Full HD H.264 a través de la salida HDMI.
 
 En octubre de 2011, el logotipo se seleccionó entre varios diseños enviados por miembros de la comunidad. Durante el mismo mes, se trabajó en una versión de desarrollo de RISC OS 5 y se hizo una demostración en público.
-
 
 Certificado de autenticidad de una placa subastada
 En diciembre de 2011, se ensamblaron y probaron 25 placas beta del modelo B de un total de 100 placas vacías. El diagrama de componentes de las placas finales sería el mismo que el de esas placas beta. Durante las pruebas a las placas beta se encontró un error de diseño en los pines que suministraban alimentación a la CPU que sería arreglado en la versión final. Se hizo una demostración de la placa beta arrancando GNU, reproduciendo un tráiler de una película a 1080p y ejecutando el benchmark Rightware Samurai OpenGL ES.
@@ -123,7 +121,6 @@ La Raspberry Pi 400 fue anunciada en noviembre de 2020. Cuenta con una placa per
 
 ![Imagen de Raspberry Pi 400 KIT](../assets/Anexo-raspi/Raspi-01/009-Raspberry_Pi_400.jpg)
 
-
 ### Raspberry Pi Pico
 
 Raspberry Pi Pico. Anunciada en el 2021, es una placa pequeña y versátil construida con RP2040, un nuevo chip microcontrolador diseñado por Raspberry Pi en el Reino Unido. Este modelo está gobernada por un pequeño SoC que ha sido diseñado por los propios responsables de este proyecto. Se trata del RP2040, que cuenta con un procesador dual core ARM Cortex M0+ funcionando a 133 MHz, acompañado de 264 KB de RAM y 2 MB de almacenamiento integrado.
@@ -133,8 +130,6 @@ Raspberry Pi Pico. Anunciada en el 2021, es una placa pequeña y versátil const
 ---
 
 ## 1.4. Tabla de especificaciones
-
-
 
 <table class="wikitable">
 <caption>

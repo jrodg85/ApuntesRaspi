@@ -6,6 +6,12 @@
 
 # ACCIONES PREVIAS DE LA INSTALACION DEL SO RASPBIAN EN LA TARJETA MICRO SD
 
+### Introducción.
+
+En este capitulo procederemos a explicar las acciones previas para poder iniciar la instalación del SO Raspbian en la tarjeta MicroSD.
+
+---
+
 ## 1. Insertar Tarjeta Micro SD en el PC
 
 ### Introducción
@@ -19,7 +25,6 @@ En la siguiente imagen se muestra la tarjeta MicroSD a instalar y el lector que 
 
 ### Acciones previas a realizar
 
-
 - Se procede a Colocar la tarjeta MicroSD dentro del lector de tarjetas, tal como se observa en la siguiente imagen.
 
 ![Colocación de la tarjeta microSD en lector](../assets/Anexo-raspi/Raspi-02/002-instalacion-tarjeta-microSD-en-lector.png)
@@ -30,9 +35,7 @@ En la siguiente imagen se muestra la tarjeta MicroSD a instalar y el lector que 
 ![Colocación del lector de tarjetas en el PC](../assets/Anexo-raspi/Raspi-02/003-Instalacion-del-lector-en-el-PC.png)
 ~ Colocación del lector de tarjetas en el PC.
 
-
 - A continuación se deberá de detectar una unidad de memoria, por la inserción del lector de tarjetas MicroSD.
-
 
 ---
 
@@ -45,7 +48,6 @@ Una vez detectada la unidad USB, se procedera a la limpieza de la unidad de disc
 ### Acciones a realizar
 
 - Se procede a arrancar el CMD de windows, o también conocido como símbolo del sistema.
-
 
 ![Inicio de CMD](../assets/Anexo-raspi/Raspi-02/004-Entramos-en-cmd.png)
 ~ Seleccion de CMD.
@@ -83,9 +85,7 @@ Una vez detectada la unidad USB, se procedera a la limpieza de la unidad de disc
 - Una vez borrada la unidad, queda pendiente el formateo de la unidad para poder usarla, para ello, procedemos a salir de la aplicación diskpart.
   - Cabe destacar que esta aplicación también permite el formateado de la tarjeta, pero se ha decidido realizar el formateo con una aplicación con interfaz mas amigable
 
-
 ---
-
 
 ## 3. Formateado de la tarjeta MicroSD
 
@@ -121,7 +121,6 @@ Una vez que la tarjeta MicroSD ha sido borrada, se procederá a dar formato a la
 
 - Especificaremos el tamaño, en este caso haremos click en siguiente.
 
-
 ![Especificar tamaño](../assets/Anexo-raspi/Raspi-02/014-especificar-tama%C3%B1o.png)
 ~ Especificar tamaño $\rightarrow$ Siguiente.
 
@@ -137,13 +136,10 @@ Una vez que la tarjeta MicroSD ha sido borrada, se procederá a dar formato a la
 
 - Por ultimo, el asistente resume las acciones a realizar, confirmamos haciendo click en finalizar.
 
-
 ![diskmgmt](../assets/Anexo-raspi/Raspi-02/017-finalizacion-del-asistente.png)
 ~ Finalización del asistente.
 
-
 -Una vez formateado el disco, podemos ver que el disco que usaremos para instalar Raspbian esta correcto y operativo (linea azul).
-
 
 ![diskmgmt](../assets/Anexo-raspi/Raspi-02/018-tarjeta-microSD-lista-para-raspbianSO.png)
 ~ Disco preparado para instalar Raspbian.
@@ -157,6 +153,3 @@ Una vez que la tarjeta MicroSD ha sido borrada, se procederá a dar formato a la
 **[Subir](#top)**
 
 **[Home](/home)**
-
-
-
