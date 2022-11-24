@@ -21,7 +21,8 @@ En el Caso estudiado, se ha procedido a arrancar un PC con SO Windows 11. En el,
 ### Pasos a seguir.
 
 - Se procede a la instalación de la aplicación Raspberry Pi Imager
-  - Se puede descargar la aplicación en la siguiente URL https://www.raspberrypi.com/software/.
+
+- Se puede descargar la aplicación en la siguiente URL https://www.raspberrypi.com/software/.
 
 - Se procede a su Instalación.
 
@@ -101,7 +102,7 @@ Una vez instalado el sistema operativo dentro de la tarjeta MicroSD, procederemo
 ### Pasos previos al primer inicio de la Raspberry Pi.
 
 - Se procede la configuración para poder arrancar el dispositivo.
-  - Se extrae la tarjeta SD del PC y se procede a su colocación en la Raspberry.
+- Se extrae la tarjeta SD del PC y se procede a su colocación en la Raspberry.
 
 ![Colocación Tarjeta MicroSD](../assets/Anexo-raspi/Raspi-03/011-colocacion-tarjeta-microSD.png)
 ~ Colocación Tarjeta MicroSD
@@ -117,7 +118,7 @@ Una vez instalado el sistema operativo dentro de la tarjeta MicroSD, procederemo
 ### Primer arranque de la Raspberry Pi.
 
 - Procedemos a su encendido.
-  - Durante el encendido de este... si a los **3 minutos** la Raspberry parece haberse quedado colgada, es decir ves la pantalla en negro durante al menos **durante esos 3 minutos, nunca menos**.
+  - Durante el encendido de este, si a los **3 minutos** la Raspberry parece haberse quedado colgada, es decir ves la pantalla en negro durante al menos **durante esos 3 minutos, nunca menos**.
     - Se procede a un apagado y encendido manual, esta acción posiblemente la tengas que repetir 3 o 4 veces. Si hubiera que hacer una quinta vez, mejor inicializar la instalación de 0 de la tarjeta SD.
 
 - En nuestro caso, al usar una pantalla de Tv de 45", es necesario cambiar la configuración de la pantalla para ponerla mas acorde a la distancia de la pantalla.
@@ -136,7 +137,7 @@ Una vez instalado el sistema operativo dentro de la tarjeta MicroSD, procederemo
 
 ![Interfaces de conexión a Raspberry Pi ](../assets/Anexo-raspi/Raspi-03/015-Interfaces.png)
 
-- Por ultimo, en Raspberry Pi Configuration, procederemos a la pestaña Localisation y comprobaremos todos los apartados. En mi caso, no tenían concordancia con lo indicado previamente se había cargado durante la instalación de Raspbian en la SD.
+- Por ultimo, en Raspberry Pi Configuration, procederemos a la pestaña Localization y comprobaremos todos los apartados. En mi caso, no tenían concordancia con lo indicado previamente se había cargado durante la instalación de Raspbian en la SD.
   - Locale $\rightarrow$ Set Locale...
     - Language $\rightarrow$ es (Spanish).
     - Country $\rightarrow$ ES (Spain).
@@ -168,7 +169,7 @@ Una vez instalado el sistema operativo dentro de la tarjeta MicroSD, procederemo
     - Aceptamos.
 
 ![Wireless LAN Country Raspberry Pi Configuration](../assets/Anexo-raspi/Raspi-03/019-Wireless-LAN-Country.png)
-~ Wireless LAN Country Raspberry Pi Configuration: obsérvese en este caso de la imagen que esta en español.
+~ Wireless LAN Country Raspberry Pi Configuration: obsérvese en este caso la imagen que esta en español.
 
   - Aceptamos
 

@@ -19,7 +19,7 @@ En este apartado procederemos a reafirmar que los datos de conexión de nuestra 
 
 ### Acciones a realizar.
 
-- vamos a entrar en nuestro router a través del explorador de internet, escribiremos en nuestra barra de direcciones la dirección de la puerta de enlace predeterminada (Gateway) de nuestro pc.
+- Vamos a entrar en nuestro router a través del explorador de internet, escribiremos en nuestra barra de direcciones la dirección de la puerta de enlace predeterminada (Gateway) de nuestro pc.
 
 - Si hacemos el comando con `ifconfig` o con `ip address`, no aparece expresamente la dirección IP de nuestro Gateway.
 
@@ -29,7 +29,7 @@ En este apartado procederemos a reafirmar que los datos de conexión de nuestra 
 ![VNC](../assets/Anexo-raspi/Raspi-04/002-ip-address.png)
 ~ Comando `ip address`
 
-- Para solucionar este problema podemos hacer uso del comando ´traceroute` ello si no sabemos la configuración de internet, en una consola escribiremos el comando `traceroute`.
+- Para solucionar este problema podemos hacer uso del comando `traceroute` ello si no sabemos la configuración de internet, en una consola escribiremos el comando `traceroute`.
   - Por lo que procederemos a instalar el paquete que nos permite hacer el traceroute con el siguiente comando `sudo apt-get install inetutils-traceroute`
 
 ![VNC](../assets/Anexo-raspi/Raspi-04/003-instalando-inetutils-traceroute.png)
@@ -50,7 +50,7 @@ En este apartado procederemos a reafirmar que los datos de conexión de nuestra 
 ![VNC](../assets/Anexo-raspi/Raspi-04/005-entrando-ee-el-router.png)
 ~ Entrando en el router de nuestro ISP
 
-- A continuación procedemos a introducir su contraseña, una vez accedidos en el sistema, procedemos a hacer click en menu $\rightarrow$ Red Local $\rightarrow$ Mapa red local.
+- A continuación, procedemos a introducir su contraseña, una vez accedidos en el sistema, procedemos a hacer click en menu $\rightarrow$ Red Local $\rightarrow$ Mapa red local.
 
 ![Entrando en el mapa de red local](../assets/Anexo-raspi/Raspi-04/006-entrando-en-el-mapa-de-red-local.png)
 ~ Entrando en el mapa de red local
@@ -142,14 +142,14 @@ sudo apt -f install ./VNC-Viewer*.deb
 ~ Configuración Avanzada.
 
 ![Advertencia de configuración avanzada](../assets/Anexo-raspi/Raspi-04/017-advertencia-config-avanzada.png)
-~ Advertencia del ISP
+~ Advertencia del ISP.
 
 ![Advanced Setup](../assets/Anexo-raspi/Raspi-04/018-advanced-setup-LAN.png)
 ~ Advanced Setup.
 
 - Buscaremos en este ventana el apartado de *Static IP Lease List: (A maximum 32 entries can be configured)*.
 - Haremos click en add y añadiremos las direcciones MAC y las direcciones IP asignadas.
-  -Una vez escritas la MAC y la IP procedemos a hacer click en `Apply/Save`
+  - Una vez escritas la MAC y la IP procedemos a hacer click en `Apply/Save`.
 
 ![Asignando IP definitiva a mac Eth0](../assets/Anexo-raspi/Raspi-04/019-definiendo-mac-eth0.png)
 ~ Asignando IP definitiva a mac Eth0.
@@ -162,7 +162,7 @@ sudo apt -f install ./VNC-Viewer*.deb
 ![Asignando IP definitiva a mac Wlan0](../assets/Anexo-raspi/Raspi-04/021-comprobando-las-macs.png)
 ~ Asignando IP definitiva a mac Wlan0.
 
-- Una vez comprobado esto podremos estaremos seguros de que la Raspberry Pi tendrá la misma dirección IP
+- Una vez comprobado esto podremos estaremos seguros de que la Raspberry Pi tendrá la misma dirección IP.
 
 ### Configuración del servidor VNC para poder tele-configurar la Raspberry.
 
@@ -224,7 +224,7 @@ Una vez reiniciado el  dispositivo, comprobamos que no es necesario realizar act
 
 A continuación y volviendo al tema que nos trata, procedemos a entrar en la configuración VNC de nuestra Raspberry Pi.
 
-En ellas podremos ver que debajo de la dirección Ip de configuración (ahora dice la 192.168.1.74 porque es la de Ethernet, la de mayor fiabilidad y velocidad) indica lo siguiente
+En ellas podremos ver que debajo de la dirección Ip de configuración (ahora dice la 192.168.1.74 porque es la de Ethernet, la de mayor fiabilidad y velocidad) indica lo siguiente.
 - *Inicie sesión para habilitar la conectividad en la nube o infórmese sobre las ventajas*.
 
 ![Ventana de VNC en Raspberry](../assets/Anexo-raspi/Raspi-04/031-vnc-desde-raspberry.png)
@@ -285,7 +285,7 @@ En ellas podremos ver que debajo de la dirección Ip de configuración (ahora di
 ![Opciones](../assets/Anexo-raspi/Raspi-04/040-Opciones-vnc.png)
 ~ Entrar en opciones.
 
--El primer apartado que nos presenta y, se recomienda que la configuración este de la manera indicada en la siguiente imagen.
+- El primer apartado que nos presenta y, se recomienda que la configuración este de la manera indicada en la siguiente imagen.
 
 ![Opciones de seguridad](../assets/Anexo-raspi/Raspi-04/041-seguridad.png)
 ~ Opciones de seguridad.
@@ -304,10 +304,10 @@ El siguiente apartado que se puede observar es el de las conexiones.
   - Filtrar usuarios que se conectan.
     - Mantendremos deshabilitado el checkbox de *Mostrar petición de aceptar/rechazar para cada conexión*.
       - Tener activado este Checkbox, no nos podría permitir conectarnos de manera autónoma al dispositivo.
-  - Servidor Proxy, usaremos la opción *Utilizar configuración proxy del sistema (recomendado)*
+  - Servidor Proxy, usaremos la opción *Utilizar configuración proxy del sistema (recomendado)*.
 
 ![Conexiones](../assets/Anexo-raspi/Raspi-04/043-conexiones.png)
-~ Conexiones).
+~ Conexiones.
 
 La siguiente pantalla que nos muestra es relativo a privacidad, en este apartado se considera que sea de la misma manera que la indicada ena siguiente imagen.
 

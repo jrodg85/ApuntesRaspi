@@ -14,7 +14,7 @@
 
 ## 1. **Índice**
 
-- ### [Información General del sistema](./Raspi-01).
+- ### [Información General del Sistema](./Raspi-01).
 
 - ### [Puesta a punto de la tarjeta Micro-SD](./Raspi-02).
 
